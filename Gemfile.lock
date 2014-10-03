@@ -1,0 +1,57 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    TrelloCycleTime (1.0.10)
+      peach
+      ruby-trello
+      trello-factory
+    activemodel (3.2.19)
+      activesupport (= 3.2.19)
+      builder (~> 3.0.0)
+    activesupport (3.2.19)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    addressable (2.3.6)
+    bson (1.11.1)
+    builder (3.0.4)
+    diff-lcs (1.2.5)
+    git_repository (0.0.11)
+    i18n (0.6.11)
+    json (1.8.1)
+    mime-types (1.25.1)
+    minitest (4.0.0)
+    mongo (1.11.1)
+      bson (= 1.11.1)
+    multi_json (1.10.1)
+    oauth (0.4.7)
+    peach (0.5.1)
+    rdoc (4.1.2)
+      json (~> 1.4)
+    rest-client (1.6.8)
+      mime-types (~> 1.16)
+      rdoc (>= 2.4.2)
+    rspec-expectations (3.1.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.1.0)
+    rspec-support (3.1.1)
+    ruby-trello (1.1.1)
+      activemodel (>= 3.2.0)
+      addressable (~> 2.3)
+      json
+      oauth (~> 0.4.5)
+      rest-client (~> 1.6.7)
+    trello-factory (1.0.0)
+      peach
+      ruby-trello
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  TrelloCycleTime
+  git_repository
+  json
+  minitest (~> 4.0)
+  mongo
+  peach
+  rspec-expectations
