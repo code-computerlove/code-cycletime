@@ -1,34 +1,8 @@
 require 'TrelloCycleTime'
 require 'json'
-require_relative 'BoardSixWeekCycleTime'
-
-class BoardCycleTimes
-	MAX_ENTRIES = 30
-
-	def initialize(repository, calculation_name)
-		@repository = repository
-		@calculation_name = calculation_name
-	end
-
-	def add(cycle_time_entry)
-		puts "#{@calculation_name} - #{cycle_time}"
-		cycle_times = repository.get(@calculation_name)
-		cycle_times = {'_id' => @calculation_name, 'cycle_times' => []} unless cycle_times
-		cycle_times['cycle_times'].pop() if cycle_times['cycle_times'].length == MAX_ENTRIES 
-		cycle_times['cycle_times'].push(cycle_time_entry)
-		@repository.upsert({'_id' => @calculation_name}, cycle_times)
-	end
-end
-
-class BoardCycleTimesFactory 
-	def initialize(repository)
-		@repository = repository
-	end
-
-	def create(calculation_name)
-		BoardCycleTimes.new(repository, calculation_name)
-	end
-end
+require_relative './BoardSixWeekCycleTime'
+require_relative './MongoRepository'
+require_relative './BoardCycleTimesFactory'
 
 file = File.read("#{File.dirname(__FILE__)}/config.json")
 cycle_time_calculations = JSON.parse(file)
