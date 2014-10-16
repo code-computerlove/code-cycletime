@@ -34,5 +34,11 @@
 		"board_id" : "aC1nO47x",
 		"start_list" : "In Progress",
 		"end_list" : "Ready for Test"
+	},
+	{
+		"name" : "a_team",
+		"board_id" : "4giI7EdG",
+		"start_list" : "New",
+		"end_list" : "Prioritised (Ready for Backlog)"
 	}
 ]
