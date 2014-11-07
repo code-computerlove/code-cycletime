@@ -52,5 +52,11 @@
 		"board_id" : "GOl2XKAu",
 		"start_list" : "In Progress",
 		"end_list" : "Ready For Test"
+	},
+	{
+		"name" : "302_cycle_time_all",
+		"board_id" : "GOl2XKAu",
+		"start_list" : "In Progress",
+		"end_list" : "Ready For Release"
 	}
 ]
