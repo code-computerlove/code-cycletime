@@ -7,7 +7,7 @@ class BoardCycleTimes
 	end
 
 	def add(cycle_time_entry)
-		puts "#{@calculation_name} - #{cycle_time_entry}"
+		puts "#{@calculation_name} - #{cycle_time_entry.mean}"
 		cycle_time_value = {
 			:date => DateTime.now.strftime('%d-%m-%Y'),
 			:mean => cycle_time_entry.mean,
