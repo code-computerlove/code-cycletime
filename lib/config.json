@@ -76,5 +76,17 @@
 		"board_id" : "lWkZ5i4Y",
 		"start_list" : "In Definition",
 		"end_list" : "Released"
-	}
+	},
+	{
+		"name" : "peartree_cycle_time",
+		"board_id" : "p9Lxekgc",
+		"start_list" : "In Progress",
+		"end_list" : "Ready for Release"
+	},
+	{
+		"name" : "peartree_cycle_time_dev",
+		"board_id" : "p9Lxekgc",
+		"start_list" : "In Progress",
+		"end_list" : "Ready for Test"
+	},
 ]
