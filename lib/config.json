@@ -81,12 +81,12 @@
 		"name" : "peartree_cycle_time",
 		"board_id" : "p9Lxekgc",
 		"start_list" : "In Progress",
-		"end_list" : "Ready for Release"
+		"end_list" : "Ready For Release"
 	},
 	{
 		"name" : "peartree_cycle_time_dev",
 		"board_id" : "p9Lxekgc",
 		"start_list" : "In Progress",
-		"end_list" : "Ready for Test"
+		"end_list" : "Ready For Test"
 	},
 ]
