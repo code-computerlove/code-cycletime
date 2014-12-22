@@ -12,7 +12,7 @@ unless Time.now.saturday? || Time.now.sunday?
 
 	cycle_time_calculations.each do |cycle_time_calculation|
 		trello_cycle_time = AgileTrello::TrelloCycleTime.new(
-			public_key: 'e185a8128064891a8961802a3d86b08e',
+			public_key: 'addb4649842bd95aa535abe99d5ecc38',
 			access_token: ENV['TRELLO_TOKEN']
 		)
 		board_cycle_times = board_cycle_times_factory.create(cycle_time_calculation["name"])
