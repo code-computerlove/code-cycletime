@@ -15,7 +15,7 @@ class BoardCycleTimes
 		}
 		cycle_times = @repository.get(@calculation_name)
 		cycle_times = {'_id' => @calculation_name, 'cycle_times' => []} unless cycle_times
-		cycle_times['cycle_times'].pop() if cycle_times['cycle_times'].length == MAX_ENTRIES 
+		cycle_times['cycle_times'].shift if cycle_times['cycle_times'].length == MAX_ENTRIES 
 		cycle_times['cycle_times'].push(cycle_time_value)
 		@repository.upsert({'_id' => @calculation_name}, cycle_times)
 	end
