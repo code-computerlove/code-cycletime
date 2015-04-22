@@ -61,15 +61,15 @@
 	},
 	{
 		"name" : "foxhound_cycle_time_dev",
-		"board_id" : "lWkZ5i4Y",
-		"start_list" : "In Development",
-		"end_list" : "Ready To QA"
+		"board_id" : "OrnRiRD1",
+		"start_list" : "In development",
+		"end_list" : "Ready to QA"
 	},
 	{
 		"name" : "foxhound_cycle_time",
-		"board_id" : "lWkZ5i4Y",
-		"start_list" : "In Development",
-		"end_list" : "Ready For Release"
+		"board_id" : "OrnRiRD1",
+		"start_list" : "In development",
+		"end_list" : "Ready for release to UAT"
 	},
 	{
 		"name" : "peartree_cycle_time",
