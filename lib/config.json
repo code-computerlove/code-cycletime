@@ -72,15 +72,15 @@
 		"end_list" : "Ready For Release"
 	},
 	{
-		"name" : "peartree_cycle_time",
-		"board_id" : "p9Lxekgc",
-		"start_list" : "In Progress",
-		"end_list" : "Ready For Release"
+		"name" : "wolfpack_cycle_time_dev",
+		"board_id" : "MHGk40qK",
+		"start_list" : "In Development",
+		"end_list" : "Ready To QA"
 	},
 	{
-		"name" : "peartree_cycle_time_dev",
-		"board_id" : "p9Lxekgc",
-		"start_list" : "In Progress",
-		"end_list" : "Ready For Test"
+		"name" : "wolfpack_cycle_time",
+		"board_id" : "MHGk40qK",
+		"start_list" : "In Development",
+		"end_list" : "Ready For Release"
 	}
 ]
