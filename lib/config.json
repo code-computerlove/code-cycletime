@@ -60,13 +60,13 @@
 		"end_list" : "Ready For Release"
 	},
 	{
-		"name" : "amnesty_cycle_time_dev",
+		"name" : "foxhound_cycle_time_dev",
 		"board_id" : "lWkZ5i4Y",
 		"start_list" : "In Development",
 		"end_list" : "Ready To QA"
 	},
 	{
-		"name" : "amnesty_cycle_time",
+		"name" : "foxhound_cycle_time",
 		"board_id" : "lWkZ5i4Y",
 		"start_list" : "In Development",
 		"end_list" : "Ready For Release"
