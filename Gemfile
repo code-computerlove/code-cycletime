@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'TrelloCycleTime'
 gem 'json'
-gem 'mongo'
+gem 'mongo', '~> 1.12.0'
 
 group :development do
 	gem 'peach'
