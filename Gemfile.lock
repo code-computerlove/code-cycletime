@@ -56,3 +56,4 @@ DEPENDENCIES
   mongo
   peach
   rspec-expectations
+  
